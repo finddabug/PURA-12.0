@@ -1,7 +1,7 @@
 PURA Core staging tree 0.12
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/PURAcoin/PURA.svg?branch=master)](https://travis-ci.org/PURAcoin/PURA) `v0.12.0.x:`
+`master:` [![Build Status](https://travis-ci.org/PURAcoin/PURA.svg?branch=master)](https://travis-ci.org/PURAcoin/PURA)
 
 https://www.PURA.org
 
