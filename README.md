@@ -1,4 +1,4 @@
-PURA Core staging tree 0.12
+﻿PURA Core staging tree 0.12
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/PURAcoin/PURA.svg?branch=master)](https://travis-ci.org/PURAcoin/PURA)
@@ -20,7 +20,7 @@ are carried out collectively by the network. PURA Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the PURA Core software, see https://www.PURA.org/downloads.
+the PURA Core software, see https://www.puranetwork.com
 
 
 License
@@ -33,10 +33,10 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/PURApay/PURA/tags) are created to indicate new official,
+[Tags](https://github.com/PURAcoin/PURA/tags) are created to indicate new official,
 stable release versions of PURA Core.
 
-The contribution workflow is described in [CONTRIBUTING.md](https://github.com/PURApay/PURA/blob/v0.12.1.x/CONTRIBUTING.md).
+The contribution workflow is described in [CONTRIBUTING.md](https://github.com/PURAcoin/PURA/blob/v0.12.1.x/CONTRIBUTING.md).
 
 
 Testing
@@ -55,14 +55,14 @@ submit new unit tests for old code. Unit tests can be compiled and run (assuming
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
 used for manual QA testing — a link to them will appear in a comment on the
-pull request posted by [PURAPullTester](https://github.com/PURApay/PullTester). See https://github.com/TheBlueMatt/test-scripts
+pull request posted by [PURAPullTester](https://github.com/PURAcoin/PullTester). See https://github.com/TheBlueMatt/test-scripts
 for the build/test scripts. ***TODO***
 
 ### Manual Quality Assurance (QA) Testing
 
 Large changes should have a test plan, and should be tested by somebody other
 than the developer who wrote the code.
-See https://github.com/PURApay/QA/ for how to create a test plan. ***TODO***
+See https://github.com/PURAcoin/QA/ for how to create a test plan. ***TODO***
 
 Translations
 ------------
