@@ -3,7 +3,7 @@
 
 `master:` [![Build Status](https://travis-ci.org/PURAcoin/PURA.svg?branch=master)](https://travis-ci.org/PURAcoin/PURA)
 
-https://www.PURA.org
+https://www.puranetwork.com
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 Copyright (c) 2014-2017 Dash Core Developers
