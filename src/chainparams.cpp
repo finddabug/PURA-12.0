@@ -106,9 +106,6 @@ public:
         nDefaultPort = 9999;
         bnProofOfWorkLimit = ~uint256(0) >> 20;  // PURA starting difficulty is 1 / 2^12
 
-        nDefaultPort = 5555; //p2p port
-        bnProofOfWorkLimit = ~uint256(0) >> 20;  // icash starting difficulty is 1 / 2^12
-
         nSubsidyHalvingInterval = 5000000;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
