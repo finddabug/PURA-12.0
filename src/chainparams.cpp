@@ -213,7 +213,8 @@ public:
         /*vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));
         vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));
         *///legacy seeders
-        vSeeds.push_back(CDNSSeedData("138.197.28.209", "138.197.28.209"));
+        vSeeds.push_back(CDNSSeedData("138.197.28.209", "45.77.65.230"));
+        vSeeds.push_back(CDNSSeedData("5.254.88.250", "108.61.103.217"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet dash addresses start with 'x' or 'y'
