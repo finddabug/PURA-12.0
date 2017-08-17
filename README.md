@@ -3,7 +3,7 @@
 
 `master:` [![Build Status](https://travis-ci.org/PURAcoin/PURA.svg?branch=master)](https://travis-ci.org/PURAcoin/PURA)
 
-https://www.puranetwork.com
+https://www.pura.one
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 Copyright (c) 2014-2017 Dash Core Developers
@@ -20,7 +20,7 @@ are carried out collectively by the network. PURA Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the PURA Core software, see https://www.puranetwork.com
+the PURA Core software, see https://www.pura.one
 
 
 License
