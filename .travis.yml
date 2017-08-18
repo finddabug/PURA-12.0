@@ -18,7 +18,8 @@ env:
     - CCACHE_TEMPDIR=/tmp/.ccache-temp
     - CCACHE_COMPRESS=1
     - BASE_OUTDIR=$TRAVIS_BUILD_DIR/out
-    - SDK_URL=https://PURA.org/depends-sources/sdks
+    - SDK_URL=https://dash.org/depends-sources/sdks
+# PURA does not yet have a sdk account
 cache:
   apt: true
   ccache: true
