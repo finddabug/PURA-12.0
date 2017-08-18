@@ -147,12 +147,12 @@ public:
 
         vSeeds.push_back(CDNSSeedData("138.197.28.209", "138.197.28.209"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of( 55);                    // icash addresses start with 'i'
-        base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // icash script addresses start with '7'
-        base58Prefixes[SECRET_KEY] =     list_of(150);                    // icash private keys start with '7' or 'X'
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0xFE)(0x52)(0xF8); // icash BIP32 pubkeys start with 'drkv'
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0xFE)(0x52)(0xCC); // icash BIP32 prvkeys start with 'drkp'
-        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x8000007f);             // icash BIP44 coin type is '127' in slip
+        base58Prefixes[PUBKEY_ADDRESS] = list_of( 55);                    // PURA addresses start with 'P'
+        base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // PURA script addresses start with '7'
+        base58Prefixes[SECRET_KEY] =     list_of(150);                    // PURA private keys start with '2' or 'X'
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0xFE)(0x52)(0xF8); // PURA BIP32 pubkeys start with 'drkv'
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0xFE)(0x52)(0xCC); // PURA BIP32 prvkeys start with 'drkp'
+        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x8000007f);             // PURA BIP44 coin type is '127' in slip
 
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
@@ -170,7 +170,7 @@ public:
         strSporkKey = "04540ac134f694c0243f503e8c8a9a986f5de6610049c40b07816809b0d1d06a21b07be27b9bb555931773f62ba6cf35a25fd52f694d4e1106ccd237a7bb899fdd";
         strMasternodePaymentsPubKey = "04540ac134f694c0243f503e8c8a9a986f5de6610049c40b07816809b0d1d06a21b07be27b9bb555931773f62ba6cf35a25fd52f694d4e1106ccd237a7bb899fdd";
         strDarksendPoolDummyAddress = "Pq19GqFvajRrEdDHYRKGYjTsQfpV5jyipF";
-        nStartMasternodePayments = 1499483453; //Wed, 25 Jun 2014 20:36:16 GMT
+        nStartMasternodePayments = 1499483453; //Saturday, 08-July-2017 03:10:53 UTC
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -238,7 +238,7 @@ public:
         strSporkKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
         strMasternodePaymentsPubKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
         strDarksendPoolDummyAddress = "y1EZuxhhNMAUofTBEeLqGE1bJrpC2TWRNp";
-        nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
+        nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT Testnet
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
     {
@@ -265,7 +265,7 @@ public:
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
         nTargetTimespan = 24 * 60 * 60; // PURA: 1 day
-        nTargetSpacing = 2.5 * 60; // PURA: 2.5 minutes
+        nTargetSpacing = 2.5 * 60;      // PURA: 2.5 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1500000001;
         genesis.nBits = 0x1e0ffff0;
