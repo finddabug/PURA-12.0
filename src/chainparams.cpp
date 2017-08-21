@@ -105,14 +105,13 @@ public:
         vAlertPubKey = ParseHex("048240a8748a80a286b270ba126705ced4f2ce5a7847b3610ea3c06513150dade2a8512ed5ea86320824683fc0818f0ac019214973e677acd1244f6d0571fc5103");
         nDefaultPort = 9999;
         bnProofOfWorkLimit = ~uint256(0) >> 20;  // PURA starting difficulty is 1 / 2^12
-
-        nSubsidyHalvingInterval = 5000000;
+        nSubsidyHalvingInterval = 5000000;       // PURA halfing
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
         nTargetTimespan = 24 * 60 * 60; // PURA: 1 day
-        nTargetSpacing = 2.5 * 60; // PURA: 2.5 minutes
+        nTargetSpacing = 2.5 * 60;      // PURA: 2.5 minutes
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -145,11 +144,12 @@ public:
         assert(hashGenesisBlock == uint256("0x00000feb775ad4d6bd60b76db8bd4a0f795ac6977f6a8b831256daa06d95ce73"));
         assert(genesis.hashMerkleRoot == uint256("0xce0a9e89a9cc2cae1e55990d23dc8e9931e5c202730a64c923a667a04ed90430"));
 
-        vSeeds.push_back(CDNSSeedData("138.197.28.209", "138.197.28.209"));
+        vSeeds.push_back(CDNSSeedData("138.197.28.209", "45.77.65.230")); // PURA main network seeds
+        vSeeds.push_back(CDNSSeedData("5.254.88.250", "108.61.103.217")); // PURA main network seeds
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of( 55);                    // PURA addresses start with 'P'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // PURA script addresses start with '7'
-        base58Prefixes[SECRET_KEY] =     list_of(150);                    // PURA private keys start with '2' or 'X'
+        base58Prefixes[SECRET_KEY] =     list_of(150);                    // PURA private keys start with '7' or 'P'
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0xFE)(0x52)(0xF8); // PURA BIP32 pubkeys start with 'drkv'
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0xFE)(0x52)(0xCC); // PURA BIP32 prvkeys start with 'drkp'
         base58Prefixes[EXT_COIN_TYPE]  = list_of(0x8000007f);             // PURA BIP44 coin type is '127' in slip
@@ -170,7 +170,7 @@ public:
         strSporkKey = "04540ac134f694c0243f503e8c8a9a986f5de6610049c40b07816809b0d1d06a21b07be27b9bb555931773f62ba6cf35a25fd52f694d4e1106ccd237a7bb899fdd";
         strMasternodePaymentsPubKey = "04540ac134f694c0243f503e8c8a9a986f5de6610049c40b07816809b0d1d06a21b07be27b9bb555931773f62ba6cf35a25fd52f694d4e1106ccd237a7bb899fdd";
         strDarksendPoolDummyAddress = "Pq19GqFvajRrEdDHYRKGYjTsQfpV5jyipF";
-        nStartMasternodePayments = 1499483453; //Saturday, 08-July-2017 03:10:53 UTC
+        nStartMasternodePayments = 1499483453; //Saturday, 08 July 2017 03:10:53 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -210,19 +210,20 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        /*vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));
-        vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));
-        *///legacy seeders
-        vSeeds.push_back(CDNSSeedData("138.197.28.209", "45.77.65.230"));
-        vSeeds.push_back(CDNSSeedData("5.254.88.250", "108.61.103.217"));
+        /*
+        vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));   //legacy Dash testnet seeders
+        vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));         //legacy Dash testnet seeders
+        */
+        vSeeds.push_back(CDNSSeedData("138.197.28.209", "45.77.65.230")); // PURA testnet seeds
+        vSeeds.push_back(CDNSSeedData("5.254.88.250", "108.61.103.217")); // PURA testnet seeds
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet dash addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet dash script addresses start with '8' or '9'
-        base58Prefixes[SECRET_KEY]     = list_of(239);                    // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x3a)(0x80)(0x61)(0xa0); // Testnet dash BIP32 pubkeys start with 'DRKV'
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x3a)(0x80)(0x58)(0x37); // Testnet dash BIP32 prvkeys start with 'DRKP'
-        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000001);             // Testnet dash BIP44 coin type is '5' (All coin's testnet default)
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet PURA addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = list_of( 19);                    // Testnet PURA script addresses start with '8' or '9'
+        base58Prefixes[SECRET_KEY]     = list_of(239);                    // Testnet PURA private keys start with '9' or 'c' (Bitcoin defaults)
+        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x3a)(0x80)(0x61)(0xa0); // Testnet PURA BIP32 pubkeys start with 'DRKV'
+        base58Prefixes[EXT_SECRET_KEY] = list_of(0x3a)(0x80)(0x58)(0x37); // Testnet PURA BIP32 prvkeys start with 'DRKP'
+        base58Prefixes[EXT_COIN_TYPE]  = list_of(0x80000001);             // Testnet PURA BIP44 coin type is '5' (All coin's testnet default)
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
@@ -238,7 +239,7 @@ public:
         strSporkKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
         strMasternodePaymentsPubKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
         strDarksendPoolDummyAddress = "y1EZuxhhNMAUofTBEeLqGE1bJrpC2TWRNp";
-        nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT Testnet
+        nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
     {
