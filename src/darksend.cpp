@@ -35,10 +35,10 @@ map<uint256, CDarksendBroadcastTx> mapDarksendBroadcastTxes;
 // Keep track of the active Masternode
 CActiveMasternode activeMasternode;
 
-/* *** BEGIN DARKSEND MAGIC - PURA **********
-    Copyright (c) 2014-2015, PURA Developers
-        eduffield - evan@PURApay.io
-        udjinm6   - udjinm6@PURApay.io
+/* *** BEGIN DARKSEND MAGIC - DASH **********
+    Copyright (c) 2014-2015, Dash Developers
+        eduffield - evan@dashpay.io
+        udjinm6   - udjinm6@dashpay.io
 */
 
 void CDarksendPool::ProcessMessageDarksend(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
