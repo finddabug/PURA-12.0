@@ -933,8 +933,8 @@ Address: %4
     </message>
     <message>
         <location line="+329"/>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;PrivatePay will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivatePay, please deselect all non-nonymized inputs first and then check PrivatePay checkbox again.</source>
+        <translation>Non-anonymized input selected. &lt;b&gt;PrivatePay will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivatePay, please deselect all non-nonymized inputs first and then check PrivatePay checkbox again.</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -1062,11 +1062,11 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>PrivatePayConfig</name>
     <message>
         <location filename="../forms/darksendconfig.ui" line="+14"/>
-        <source>Configure Darksend</source>
-        <translation>Configure Darksend</translation>
+        <source>Configure PrivatePay</source>
+        <translation>Configure PrivatePay</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1127,23 +1127,23 @@ Address: %4
         <location filename="../darksendconfig.cpp" line="+43"/>
         <location line="+15"/>
         <location line="+15"/>
-        <source>Darksend Configuration</source>
-        <translation>Darksend Configuration</translation>
+        <source>PrivatePay Configuration</source>
+        <translation>PrivatePay Configuration</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</translation>
+        <source>PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</source>
+        <translation>PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</translation>
+        <source>PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</source>
+        <translation>PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</translation>
+        <source>PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</source>
+        <translation>PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PURA&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1441,13 +1441,13 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Darksend rounds to use</source>
-        <translation>Darksend rounds to use</translation>
+        <source>PrivatePay rounds to use</source>
+        <translation>PrivatePay rounds to use</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</source>
-        <translation>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</translation>
+        <source>This amount acts as a threshold to turn off PrivatePay once it&apos;s reached.</source>
+        <translation>This amount acts as a threshold to turn off PrivatePay once it&apos;s reached.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1790,8 +1790,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Darksend Balance:</source>
-        <translation>Darksend Balance:</translation>
+        <source>PrivatePay Balance:</source>
+        <translation>PrivatePay Balance:</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1819,8 +1819,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
         <location line="+10"/>
         <location line="+10"/>
         <location line="+14"/>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>PrivatePay</source>
+        <translation>PrivatePay</translation>
     </message>
     <message>
         <location line="+74"/>
@@ -1844,8 +1844,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Try to manually submit a Darksend request.</translation>
+        <source>Try to manually submit a PrivatePay request.</source>
+        <translation>Try to manually submit a PrivatePay request.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1854,8 +1854,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</source>
-        <translation>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</translation>
+        <source>Reset the current status of PrivatePay (can interrupt PrivatePay if it&apos;s in the process of Mixing, which can cost you money!)</source>
+        <translation>Reset the current status of PrivatePay (can interrupt PrivatePay if it&apos;s in the process of Mixing, which can cost you money!)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1881,14 +1881,14 @@ https://www.transifex.com/projects/p/PURA/</translation>
         <location line="-288"/>
         <location line="+290"/>
         <location line="+91"/>
-        <source>Start Darksend Mixing</source>
-        <translation>Start Darksend Mixing</translation>
+        <source>Start PrivatePay Mixing</source>
+        <translation>Start PrivatePay Mixing</translation>
     </message>
     <message>
         <location line="-379"/>
         <location line="+382"/>
-        <source>Stop Darksend Mixing</source>
-        <translation>Stop Darksend Mixing</translation>
+        <source>Stop PrivatePay Mixing</source>
+        <translation>Stop PrivatePay Mixing</translation>
     </message>
     <message>
         <location line="-211"/>
@@ -1945,9 +1945,9 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>Last Darksend message:
+        <source>Last PrivatePay message:
 </source>
-        <translation>Last Darksend message:
+        <translation>Last PrivatePay message:
 </translation>
     </message>
     <message>
@@ -1957,23 +1957,23 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>Darksend was successfully reset.</source>
-        <translation>Darksend was successfully reset.</translation>
+        <source>PrivatePay was successfully reset.</source>
+        <translation>PrivatePay was successfully reset.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>If you don&apos;t want to see internal Darksend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</source>
-        <translation>If you don&apos;t want to see internal Darksend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</translation>
+        <source>If you don&apos;t want to see internal PrivatePay fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</source>
+        <translation>If you don&apos;t want to see internal PrivatePay fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Darksend requires at least %1 to use.</translation>
+        <source>PrivatePay requires at least %1 to use.</source>
+        <translation>PrivatePay requires at least %1 to use.</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
-        <translation>Wallet is locked and user declined to unlock. Disabling Darksend.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling PrivatePay.</source>
+        <translation>Wallet is locked and user declined to unlock. Disabling PrivatePay.</translation>
     </message>
 </context>
 <context>
@@ -3015,8 +3015,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+38"/>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>PrivatePay</source>
+        <translation>PrivatePay</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -3083,8 +3083,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(darksend requires this amount to be rounded up to the nearest %1).</translation>
+        <source>(PrivatePay requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(PrivatePay requires this amount to be rounded up to the nearest %1).</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3868,8 +3868,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received via Darksend</source>
-        <translation>Received via Darksend</translation>
+        <source>Received via PrivatePay</source>
+        <translation>Received via PrivatePay</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3888,23 +3888,23 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Denominate</translation>
+        <source>PrivatePay Denominate</source>
+        <translation>PrivatePay Denominate</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend Collateral Payment</translation>
+        <source>PrivatePay Collateral Payment</source>
+        <translation>PrivatePay Collateral Payment</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Make Collateral Inputs</translation>
+        <source>PrivatePay Make Collateral Inputs</source>
+        <translation>PrivatePay Make Collateral Inputs</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Create Denominations</translation>
+        <source>PrivatePay Create Denominations</source>
+        <translation>PrivatePay Create Denominations</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4012,23 +4012,23 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Make Collateral Inputs</translation>
+        <source>PrivatePay Make Collateral Inputs</source>
+        <translation>PrivatePay Make Collateral Inputs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Create Denominations</translation>
+        <source>PrivatePay Create Denominations</source>
+        <translation>PrivatePay Create Denominations</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Denominate</translation>
+        <source>PrivatePay Denominate</source>
+        <translation>PrivatePay Denominate</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend Collateral Payment</translation>
+        <source>PrivatePay Collateral Payment</source>
+        <translation>PrivatePay Collateral Payment</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4255,8 +4255,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+12"/>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</translation>
+        <source>PrivatePay uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>PrivatePay uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -4325,13 +4325,13 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Unable to locate enough Darksend denominated funds for this transaction.</translation>
+        <source>Unable to locate enough PrivatePay denominated funds for this transaction.</source>
+        <translation>Unable to locate enough PrivatePay denominated funds for this transaction.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 PURA.</source>
-        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 PURA.</translation>
+        <source>Unable to locate enough PrivatePay non-denominated funds for this transaction that are not equal 1000 PURA.</source>
+        <translation>Unable to locate enough PrivatePay non-denominated funds for this transaction that are not equal 1000 PURA.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4455,8 +4455,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>Darksend options:</source>
-        <translation>Darksend options:</translation>
+        <source>PrivatePay options:</source>
+        <translation>PrivatePay options:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4545,8 +4545,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Error: You already have pending entries in the Darksend pool</translation>
+        <source>Error: You already have pending entries in the PrivatePay pool</source>
+        <translation>Error: You already have pending entries in the PrivatePay pool</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4610,8 +4610,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all PURA specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all PURA specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all PURA specific functionality (Masternodes, PrivatePay, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all PURA specific functionality (Masternodes, PrivatePay, InstantX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4625,8 +4625,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</translation>
+        <source>Enable use of automated PrivatePay for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Enable use of automated PrivatePay for funds stored in this wallet (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -4700,8 +4700,8 @@ https://www.transifex.com/projects/p/PURA/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</translation>
+        <source>Provide liquidity to PrivatePay by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Provide liquidity to PrivatePay by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -4847,18 +4847,18 @@ for example: alertnotify=echo %%s | mail -s &quot;PURA Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend is idle.</source>
-        <translation>Darksend is idle.</translation>
+        <source>PrivatePay is idle.</source>
+        <translation>PrivatePay is idle.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend request complete:</source>
-        <translation>Darksend request complete:</translation>
+        <source>PrivatePay request complete:</source>
+        <translation>PrivatePay request complete:</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend request incomplete:</source>
-        <translation>Darksend request incomplete:</translation>
+        <source>PrivatePay request incomplete:</source>
+        <translation>PrivatePay request incomplete:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -5022,8 +5022,8 @@ for example: alertnotify=echo %%s | mail -s &quot;PURA Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+11"/>
-        <source>Last successful Darksend action was too recent.</source>
-        <translation>Last successful Darksend action was too recent.</translation>
+        <source>Last successful PrivatePay action was too recent.</source>
+        <translation>Last successful PrivatePay action was too recent.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5367,8 +5367,8 @@ for example: alertnotify=echo %%s | mail -s &quot;PURA Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Last Darksend was too recent.</source>
-        <translation>Last Darksend was too recent.</translation>
+        <source>Last PrivatePay was too recent.</source>
+        <translation>Last PrivatePay was too recent.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5682,8 +5682,8 @@ for example: alertnotify=echo %%s | mail -s &quot;PURA Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Value more than Darksend pool maximum allows.</translation>
+        <source>Value more than PrivatePay pool maximum allows.</source>
+        <translation>Value more than PrivatePay pool maximum allows.</translation>
     </message>
     <message>
         <location line="+1"/>
