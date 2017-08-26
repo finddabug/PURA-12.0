@@ -42,13 +42,13 @@ QT_TRANSLATE_NOOP("PURA-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
 "effective with disabled wallet functionality)"),
 QT_TRANSLATE_NOOP("PURA-core", ""
-"Darksend uses exact denominated amounts to send funds, you might simply need "
+"PrivatePay uses exact denominated amounts to send funds, you might simply need "
 "to anonymize some more coins."),
 QT_TRANSLATE_NOOP("PURA-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("PURA-core", ""
-"Disable all PURA specific functionality (Masternodes, Darksend, InstantX, "
+"Disable all PURA specific functionality (Masternodes, PrivatePay, InstantX, "
 "Budgeting) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("PURA-core", ""
 "Distributed under the MIT software license, see the accompanying file "
@@ -57,7 +57,7 @@ QT_TRANSLATE_NOOP("PURA-core", ""
 "Enable instantx, show confirmations for locked transactions (bool, default: "
 "%s)"),
 QT_TRANSLATE_NOOP("PURA-core", ""
-"Enable use of automated darksend for funds stored in this wallet (0-1, "
+"Enable use of automated PrivatePay for funds stored in this wallet (0-1, "
 "default: %u)"),
 QT_TRANSLATE_NOOP("PURA-core", ""
 "Enter regression test mode, which uses a special chain in which blocks can "
@@ -120,7 +120,7 @@ QT_TRANSLATE_NOOP("PURA-core", ""
 QT_TRANSLATE_NOOP("PURA-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("PURA-core", ""
-"Provide liquidity to Darksend by infrequently mixing coins on a continual "
+"Provide liquidity to PrivatePay by infrequently mixing coins on a continual "
 "basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, "
 "low fees)"),
 QT_TRANSLATE_NOOP("PURA-core", ""
@@ -164,9 +164,9 @@ QT_TRANSLATE_NOOP("PURA-core", ""
 QT_TRANSLATE_NOOP("PURA-core", ""
 "Unable to bind to %s on this computer. PURA Core is probably already running."),
 QT_TRANSLATE_NOOP("PURA-core", ""
-"Unable to locate enough Darksend denominated funds for this transaction."),
+"Unable to locate enough PrivatePay denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("PURA-core", ""
-"Unable to locate enough Darksend non-denominated funds for this transaction "
+"Unable to locate enough PrivatePay non-denominated funds for this transaction "
 "that are not equal 1000 PURA."),
 QT_TRANSLATE_NOOP("PURA-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000 "
@@ -239,10 +239,10 @@ QT_TRANSLATE_NOOP("PURA-core", "Copyright (C) 2014-%i The PURA Core Developers")
 QT_TRANSLATE_NOOP("PURA-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("PURA-core", "Could not parse -rpcbind value %s as network address"),
 QT_TRANSLATE_NOOP("PURA-core", "Could not parse masternode.conf"),
-QT_TRANSLATE_NOOP("PURA-core", "Darksend is idle."),
-QT_TRANSLATE_NOOP("PURA-core", "Darksend options:"),
-QT_TRANSLATE_NOOP("PURA-core", "Darksend request complete:"),
-QT_TRANSLATE_NOOP("PURA-core", "Darksend request incomplete:"),
+QT_TRANSLATE_NOOP("PURA-core", "PrivatePay is idle."),
+QT_TRANSLATE_NOOP("PURA-core", "PrivatePay options:"),
+QT_TRANSLATE_NOOP("PURA-core", "PrivatePay request complete:"),
+QT_TRANSLATE_NOOP("PURA-core", "PrivatePay request incomplete:"),
 QT_TRANSLATE_NOOP("PURA-core", "Debugging/Testing options:"),
 QT_TRANSLATE_NOOP("PURA-core", "Disable safemode, override a real safe mode event (default: %u)"),
 QT_TRANSLATE_NOOP("PURA-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
@@ -267,7 +267,7 @@ QT_TRANSLATE_NOOP("PURA-core", "Error: Can't select current denominated inputs")
 QT_TRANSLATE_NOOP("PURA-core", "Error: Disk space is low!"),
 QT_TRANSLATE_NOOP("PURA-core", "Error: Unsupported argument -tor found, use -onion."),
 QT_TRANSLATE_NOOP("PURA-core", "Error: Wallet locked, unable to create transaction!"),
-QT_TRANSLATE_NOOP("PURA-core", "Error: You already have pending entries in the Darksend pool"),
+QT_TRANSLATE_NOOP("PURA-core", "Error: You already have pending entries in the PrivatePay pool"),
 QT_TRANSLATE_NOOP("PURA-core", "Failed to listen on any port. Use -listen=0 if you want this."),
 QT_TRANSLATE_NOOP("PURA-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("PURA-core", "Fee (in PURA/kB) to add to transactions you send (default: %s)"),
@@ -305,8 +305,8 @@ QT_TRANSLATE_NOOP("PURA-core", "KeePassHttp id for the established association")
 QT_TRANSLATE_NOOP("PURA-core", "KeePassHttp key for AES encrypted communication with KeePass"),
 QT_TRANSLATE_NOOP("PURA-core", "Keep N PURA anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("PURA-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
-QT_TRANSLATE_NOOP("PURA-core", "Last Darksend was too recent."),
-QT_TRANSLATE_NOOP("PURA-core", "Last successful Darksend action was too recent."),
+QT_TRANSLATE_NOOP("PURA-core", "Last PrivatePay was too recent."),
+QT_TRANSLATE_NOOP("PURA-core", "Last successful PrivatePay action was too recent."),
 QT_TRANSLATE_NOOP("PURA-core", "Limit size of signature cache to <n> entries (default: %u)"),
 QT_TRANSLATE_NOOP("PURA-core", "Line: %d"),
 QT_TRANSLATE_NOOP("PURA-core", "Listen for JSON-RPC connections on <port> (default: %u or testnet: %u)"),
@@ -420,7 +420,7 @@ QT_TRANSLATE_NOOP("PURA-core", "Use UPnP to map the listening port (default: %u)
 QT_TRANSLATE_NOOP("PURA-core", "Use UPnP to map the listening port (default: 1 when listening)"),
 QT_TRANSLATE_NOOP("PURA-core", "Use the test network"),
 QT_TRANSLATE_NOOP("PURA-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("PURA-core", "Value more than Darksend pool maximum allows."),
+QT_TRANSLATE_NOOP("PURA-core", "Value more than PrivatePay pool maximum allows."),
 QT_TRANSLATE_NOOP("PURA-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("PURA-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("PURA-core", "Wallet %s resides outside data directory %s"),
