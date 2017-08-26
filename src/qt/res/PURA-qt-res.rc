@@ -22,10 +22,10 @@ BEGIN
             VALUE "CompanyName",        "PURA"
             VALUE "FileDescription",    "PURA Core (OSS GUI client for PURA)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "PURA-qt"
+            VALUE "InternalName",       "PURA-Qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "PURA-qt.exe"
+            VALUE "OriginalFilename",   "PURA-Qt.exe"
             VALUE "ProductName",        "PURA Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
