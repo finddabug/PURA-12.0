@@ -1,4 +1,3 @@
-
 #include "addrman.h"
 #include "protocol.h"
 #include "activemasternode.h"
@@ -8,7 +7,7 @@
 #include "spork.h"
 
 //
-// Bootup the Masternode, look for a 100,000 icash input and register on the network
+// Bootup the Masternode, look for a 100,000 PURA input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {    
@@ -200,7 +199,7 @@ bool CActiveMasternode::SendMasternodePing(std::string& errorMessage) {
     else
     {
         // Seems like we are trying to send a ping while the Masternode is not registered in the network
-        errorMessage = "Darksend Masternode List doesn't include our Masternode, shutting down Masternode pinging service! " + vin.ToString();
+        errorMessage = "PrivatePay Masternode List doesn't include our Masternode, shutting down Masternode pinging service! " + vin.ToString();
         status = ACTIVE_MASTERNODE_NOT_CAPABLE;
         notCapableReason = errorMessage;
         return false;
@@ -384,7 +383,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
     // Filter
     BOOST_FOREACH(const COutput& out, vCoins)
     {
-        if(out.tx->vout[out.i].nValue == 100000*COIN) { //exactly
+        if(out.tx->vout[out.i].nValue == 100000*COIN) { //exactly 100000 PURAs necessary
             filteredCoins.push_back(out);
         }
     }
