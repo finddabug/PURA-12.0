@@ -4,11 +4,6 @@ SUBDIRS = src
 
 GZIP_ENV="-9n"
 
-if BUILD_BITCOIN_LIBS
-pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = libbitcoinconsensus.pc
-endif
-
 BITCOIND_BIN=$(top_builddir)/src/PURAd$(EXEEXT)
 BITCOIN_QT_BIN=$(top_builddir)/src/qt/PURA-qt$(EXEEXT)
 BITCOIN_CLI_BIN=$(top_builddir)/src/PURA-cli$(EXEEXT)
@@ -64,7 +59,7 @@ $(BITCOIN_WIN_INSTALLER): all-recursive
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(BITCOIN_QT_BIN) $(top_builddir)/release
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(BITCOIN_CLI_BIN) $(top_builddir)/release
 	@test -f $(MAKENSIS) && $(MAKENSIS) -V2 $(top_builddir)/share/setup.nsi || \
-	  echo error: could not build $@
+	  echo error: Could not build $@
 	@echo built $@
 
 $(if $(findstring src/,$(MAKECMDGOALS)),$(MAKECMDGOALS), none): FORCE
@@ -194,9 +189,9 @@ test_PURA_coverage.info: baseline_filtered_combined.info test_PURA_filtered.info
 	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_PURA_filtered.info -o $@
 
 total_coverage.info: baseline_filtered_combined.info test_PURA_filtered.info block_test_filtered.info rpc_test_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_dash_filtered.info -a block_test_filtered.info -a rpc_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_PURA_filtered.info -a block_test_filtered.info -a rpc_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-test_dash.coverage/.dirstamp:  test_PURA_coverage.info
+test_PURA.coverage/.dirstamp:  test_PURA_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
