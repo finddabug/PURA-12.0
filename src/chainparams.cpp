@@ -124,7 +124,7 @@ public:
          *   vMerkleTree: e0028e
          */
 
-        const char* pszTimestamp = "icash launches new chain - 7/2017";
+        const char* pszTimestamp = "icash launches new chain - 7/2017"; //The PURA chain!
 
         CMutableTransaction txNew;
         txNew.vin.resize(1);
@@ -214,8 +214,10 @@ public:
         vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));   //legacy Dash testnet seeders
         vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));         //legacy Dash testnet seeders
         */
-        vSeeds.push_back(CDNSSeedData("138.197.28.209", "45.77.65.230")); // PURA testnet seeds
-        vSeeds.push_back(CDNSSeedData("5.254.88.250", "108.61.103.217")); // PURA testnet seeds
+
+        // PURA mainnet seeders
+        vSeeds.push_back(CDNSSeedData("138.197.28.209", "45.77.65.230")); // PURA testnet seeds - probably wrong
+        vSeeds.push_back(CDNSSeedData("5.254.88.250", "108.61.103.217")); // PURA testnet seeds - probably wrong
 
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(139);                    // Testnet PURA addresses start with 'x' or 'y'
@@ -268,7 +270,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // PURA: 1 day
         nTargetSpacing = 2.5 * 60;      // PURA: 2.5 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1500000001;
+        genesis.nTime = 1500000001;     // PURA block
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 3651137;
         hashGenesisBlock = genesis.GetHash();
