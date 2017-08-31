@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.PURApay.PURA-Qt";
+        return @"io.pura.one.PURA-Qt";
     } else {
         return [self __bundleIdentifier];
     }

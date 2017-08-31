@@ -42,7 +42,7 @@ void DarksendConfig::clickBasic()
         model->getOptionsModel()->getDisplayUnit(), 1000 * COIN));
     QMessageBox::information(this, tr("PrivatePay Configuration"),
         tr(
-            "PrivatSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PURA's configuration screen."
+            "PrivatPay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PURA's configuration screen."
         ).arg(strAmount)
     );
 

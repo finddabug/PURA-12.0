@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PURA
+Comment=PURA P2P Cryptocurrency
+Comment[fr]=PURA, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=PURA, esten ese kriptografik sanal para birimi
+Exec=dash-qt %u
+Terminal=false
+Type=Application
+Icon=PURA128
+MimeType=x-scheme-handler/PURA;
+Categories=Office;Finance;

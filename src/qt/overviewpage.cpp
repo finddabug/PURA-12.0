@@ -151,7 +151,7 @@ OverviewPage::OverviewPage(QWidget *parent) :
             ui->frameDarksend->setEnabled(false);
         } else {
             if(!fEnableDarksend){
-                ui->toggleDarksend->setText(tr("Start Darksend Mixing"));
+                ui->toggleDarksend->setText(tr("Start PrivatePay Mixing"));
             } else {
                 ui->toggleDarksend->setText(tr("Stop PrivatePay Mixing"));
             }

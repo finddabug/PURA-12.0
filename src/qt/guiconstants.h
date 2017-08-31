@@ -46,7 +46,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "PURA"
-#define QAPP_ORG_DOMAIN "PURApay.io"
+#define QAPP_ORG_DOMAIN "PURA.ONE"
 #define QAPP_APP_NAME_DEFAULT "PURA-Qt"
 #define QAPP_APP_NAME_TESTNET "PURA-Qt-testnet"
 

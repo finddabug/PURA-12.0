@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The PURA developers
+// Copyright (c) 2017-2017 The PURA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -124,7 +124,7 @@ public:
          *   vMerkleTree: e0028e
          */
 
-        const char* pszTimestamp = "icash launches new chain - 7/2017"; //The PURA chain!
+        const char* pszTimestamp = "icash launches new chain - 7/2017 - The PURA chain"; //The PURA chain!
 
         CMutableTransaction txNew;
         txNew.vin.resize(1);
@@ -278,7 +278,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000b460b0d50ddb57851972b9701ac4aab73e2070708c6daaafebc36cbf495"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
-        vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
+        vSeeds.clear();      //! Regtest mode doesn't have any DNS seeds.
 
         fRequireRPCPassword = false;
         fMiningRequiresPeers = false;

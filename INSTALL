@@ -7,7 +7,7 @@ Use the autogen script to prepare the build environment.
     make
 
 Precompiled binaries are available at github, see
-https://github.com/PURAproject/PURA-binaries
+https://github.com/PURAcoin/PURA/releases/download
 
 Always verify the signatures and checksums.
 
