@@ -124,7 +124,7 @@ public:
          *   vMerkleTree: e0028e
          */
 
-        const char* pszTimestamp = "icash launches new chain - 7/2017 - The PURA chain"; //The PURA chain!
+        const char* pszTimestamp = "icash launches new chain - 7/2017"; //The new PURA chain
 
         CMutableTransaction txNew;
         txNew.vin.resize(1);
